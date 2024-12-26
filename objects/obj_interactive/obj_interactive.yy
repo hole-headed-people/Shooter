@@ -9,10 +9,13 @@
   "name":"obj_interactive",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Parents",
+    "path":"folders/Objects/Parents.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_depth_object",
+    "path":"objects/obj_depth_object/obj_depth_object.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

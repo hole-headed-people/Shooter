@@ -8,12 +8,12 @@
   "name":"obj_weapon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Parents",
+    "path":"folders/Objects/Parents.yy",
   },
   "parentObjectId":{
-    "name":"obj_interactive",
-    "path":"objects/obj_interactive/obj_interactive.yy",
+    "name":"obj_float_interactive",
+    "path":"objects/obj_float_interactive/obj_float_interactive.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,6 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"index","filters":[],"listItems":[],"multiselect":false,"name":"index","rangeEnabled":true,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"ammo","filters":[],"listItems":[],"multiselect":false,"name":"ammo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

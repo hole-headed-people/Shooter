@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_start_reload",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_start_reload",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

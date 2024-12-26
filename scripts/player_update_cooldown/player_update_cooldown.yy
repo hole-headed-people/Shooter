@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_update_cooldown",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_update_cooldown",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_find_close_interactive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_find_close_interactive",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -7,6 +7,12 @@ function player_update_input(){
 	
 	key_fire_pressed = mouse_check_button_pressed(mb_left);
 	key_fire_released = mouse_check_button_released(mb_left);
+    
+    key_interact_pressed = keyboard_check_pressed(ord("F"));
+    
+    key_reload = keyboard_check_pressed(ord("R"));
+    
+    key_drop = keyboard_check_pressed(ord("G"));
 
 	facing_direction = point_direction(x, y, mouse_x, mouse_y);
 
@@ -23,5 +29,13 @@ function player_update_input(){
     
     if(key_interact_pressed){
         player_interact();
+    }
+    
+    if(key_reload){
+        player_start_reload();
+    }
+    
+    if(key_drop){
+        player_drop();
     }
 }

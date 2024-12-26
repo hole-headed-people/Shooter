@@ -11,15 +11,22 @@ key_fire_released = 0;
 
 key_interact_pressed = 0;
 
+key_reload = 0;
+
+key_drop = 0;
+
 x_axis = 0;
 y_axis = 0;
 
 facing_direction = 0;
 facing_right = 1;
 
+//Movement
+move_speed = 0.7;
+
 //Weapon
 
-weapon_index = 0;
+weapon_index = -1;
 
 weapon_type = WEAPON_TYPE.SINGLE;
 weapon_full_ammo = 0;
@@ -42,6 +49,8 @@ weapon_offset = 0;
 weapon_max_impact = 0;
 weapon_max_angular_impact = 0;
 
+weapon_object = noone;
+
 weapon_is_firing = false;
 
 weapon_ammo = 0;
@@ -56,9 +65,11 @@ weapon_is_cooldown = false;
 weapon_impact = 0;
 weapon_angular_impact = 0;
 
+weapon_is_reloading = false;
+
 //Interaction
 
-interaction_radius = 0;
+close_interactive = noone;
+interaction_radius = 10;
 
-player_set_weapon(1);
-weapon_ammo = weapon_full_ammo;
+show_debug_overlay(true);

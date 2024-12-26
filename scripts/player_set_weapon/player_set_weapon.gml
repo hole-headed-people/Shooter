@@ -22,5 +22,7 @@ function player_set_weapon(_index){
     weapon_max_impact = weapon[11];
     weapon_max_angular_impact = weapon[12];
     
+    weapon_object = weapon[13];
+    
 	weapon_index = _index;
 }
