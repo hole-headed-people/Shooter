@@ -4,12 +4,14 @@ player_update_animation();
 
 if(weapon_is_cooldown){
     if(weapon_cooldown < weapon_max_cooldown){
-        weapon_cooldown += delta_time;
+        weapon_cooldown += 0.01;
     } else {
         weapon_cooldown = 0;
         
         weapon_is_cooldown = false;
     }
+    
+    show_debug_message(weapon_cooldown);
 }
 
 weapon_impact /= 1.2;

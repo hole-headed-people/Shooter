@@ -32,13 +32,20 @@ weapon_projectile_distance = 0;
 weapon_projectile_object = -1;
 weapon_projectile_number = 0;
 
-weapon_max_impact = 0;
+weapon_max_accuracy = 0;
 
 weapon_sprite = -1;
 weapon_ui_sprite = -1;
 
+weapon_offset = 0;
+
+weapon_max_impact = 0;
+weapon_max_angular_impact = 0;
+
 weapon_is_firing = false;
+
 weapon_ammo = 0;
+weapon_secondary_ammo = 0;
 
 weapon_arm_bob = 0;
 weapon_arm_bob_speed = 0.01;

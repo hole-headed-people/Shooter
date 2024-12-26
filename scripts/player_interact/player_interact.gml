@@ -7,6 +7,7 @@ function player_interact(){
     }
     
     with(_close_interactive){
+        current_player = other;
         event_user(0);
     }
 }

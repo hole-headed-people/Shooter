@@ -12,10 +12,15 @@ function player_set_weapon(_index){
     weapon_projectile_object = weapon[5];
     weapon_projectile_number = weapon[6];
     
-    weapon_max_impact = weapon[7];
+    weapon_max_accuracy = weapon[7];
     
     weapon_sprite = weapon[8];
     weapon_ui_sprite = weapon[9];
+    
+    weapon_offset = weapon[10];
+    
+    weapon_max_impact = weapon[11];
+    weapon_max_angular_impact = weapon[12];
     
 	weapon_index = _index;
 }
