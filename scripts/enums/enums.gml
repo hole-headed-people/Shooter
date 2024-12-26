@@ -1,0 +1,4 @@
+enum WEAPON_TYPE {
+	SINGLE,
+	AUTOMATIC
+}
