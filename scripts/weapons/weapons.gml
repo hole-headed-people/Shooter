@@ -12,6 +12,7 @@
 //11: impact
 //12: angular impact
 //13: drop
+//14: damage
 
 //Pistol
 
@@ -29,6 +30,7 @@ global.weapons[0][10] = 0;
 global.weapons[0][11] = 2;
 global.weapons[0][12] = 60;
 global.weapons[0][13] = obj_pistol;
+global.weapons[0][14] = 8;
 
 //MP5
 
@@ -46,6 +48,7 @@ global.weapons[1][10] = 4;
 global.weapons[1][11] = 2;
 global.weapons[1][12] = 20;
 global.weapons[1][13] = obj_mp5;
+global.weapons[1][14] = 5;
 
 //Gun
 
@@ -60,7 +63,8 @@ global.weapons[2][7] = 8;
 global.weapons[2][8] = spr_player_gun;
 global.weapons[2][9] = spr_gun;
 global.weapons[2][10] = 4;
-global.weapons[2][11] = 2;
-global.weapons[2][12] = 30;
+global.weapons[2][11] = 4;
+global.weapons[2][12] = 60;
 global.weapons[2][13] = obj_gun;
+global.weapons[2][14] = 15;
 global.weapons[1][12] = 20;

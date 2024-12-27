@@ -13,16 +13,25 @@ function player_shoot(){
         var _direction = facing_direction + random_range(-weapon_max_accuracy, weapon_max_accuracy);
     	
     	with(_projectile){
+            owner = other;
+            damage = other.weapon_damage;
+            
     		image_angle = _direction;
     		motion_set(_direction, 8);
     	}
+        
+        var _empty_bullet = instance_create(x, y, obj_empty_bullet);
+        var _empty_bullet_direction = point_direction(x, y, x - facing_right * 10, y);
+        
+        with(_empty_bullet){
+            motion_add(_empty_bullet_direction, 0.5);
+        }
     }
 	
 	weapon_impact = weapon_max_impact;
 	weapon_angular_impact = weapon_max_angular_impact;
     
     weapon_ammo -= 1;
-    show_debug_message(weapon_ammo);
     
     if(weapon_ammo == 0){
         player_start_reload();

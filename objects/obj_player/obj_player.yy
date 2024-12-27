@@ -11,14 +11,15 @@
   "name":"obj_player",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"shadow_y_offset","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage_receiver","path":"objects/obj_damage_receiver/obj_damage_receiver.yy",},"propertyId":{"name":"full_health","path":"objects/obj_damage_receiver/obj_damage_receiver.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
   ],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"Player",
+    "path":"folders/Objects/Characters/Player.yy",
   },
   "parentObjectId":{
-    "name":"obj_depth_object",
-    "path":"objects/obj_depth_object/obj_depth_object.yy",
+    "name":"obj_damage_receiver",
+    "path":"objects/obj_damage_receiver/obj_damage_receiver.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

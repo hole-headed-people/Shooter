@@ -4,3 +4,6 @@
 #macro SHADOW_ALPHA 0.2
 
 #macro PLAYER_DROP_DISTANCE -8
+
+#macro GUI_WIDTH 256
+#macro GUI_HEIGHT 192

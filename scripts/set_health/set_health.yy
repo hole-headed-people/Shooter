@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"set_health",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_health",
+  "parent":{
+    "name":"Generic",
+    "path":"folders/Scripts/Generic.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

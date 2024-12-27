@@ -1,3 +1,5 @@
+event_inherited();
+
 //Input
 
 key_up = 0;
@@ -50,6 +52,7 @@ weapon_max_impact = 0;
 weapon_max_angular_impact = 0;
 
 weapon_object = noone;
+weapon_damage = 0;
 
 weapon_is_firing = false;
 
@@ -66,6 +69,7 @@ weapon_impact = 0;
 weapon_angular_impact = 0;
 
 weapon_is_reloading = false;
+weapon_reloading_time = 0;
 
 //Interaction
 
