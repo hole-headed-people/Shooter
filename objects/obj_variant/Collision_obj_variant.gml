@@ -1,0 +1,1 @@
+push_from_object(other, 0.2);

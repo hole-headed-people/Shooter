@@ -6,3 +6,4 @@ is_dead = false;
 damage = 0;
 caller = noone;
 instigator = noone;
+hit_direction = -1;

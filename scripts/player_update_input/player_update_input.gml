@@ -13,6 +13,8 @@ function player_update_input(){
     key_reload = keyboard_check_pressed(ord("R"));
     
     key_drop = keyboard_check_pressed(ord("G"));
+    
+    key_toggle_weapon = keyboard_check_pressed(ord("Q"));
 
 	facing_direction = point_direction(x, y, mouse_x, mouse_y);
 
@@ -37,5 +39,9 @@ function player_update_input(){
     
     if(key_drop){
         player_drop();
+    }
+    
+    if(key_toggle_weapon){
+        player_toggle_weapon();
     }
 }

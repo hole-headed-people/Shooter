@@ -8,6 +8,7 @@ function apply_damage(_caller, _amount, _instigator){
     caller = _caller;
     damage = _amount;
     instigator = _instigator;
+    hit_direction = point_direction(_caller.x, _caller.y, x, y);
     
     if(_value <= 0){
         is_dead = true;

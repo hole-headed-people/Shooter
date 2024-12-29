@@ -17,6 +17,8 @@ key_reload = 0;
 
 key_drop = 0;
 
+key_toggle_weapon = 0;
+
 x_axis = 0;
 y_axis = 0;
 
@@ -28,36 +30,16 @@ move_speed = 0.7;
 
 //Weapon
 
-weapon_index = -1;
-
-weapon_type = WEAPON_TYPE.SINGLE;
-weapon_full_ammo = 0;
-
-weapon_max_cooldown = 0;
-
-weapon_arm_distance = 0;
-
-weapon_projectile_distance = 0;
-weapon_projectile_object = -1;
-weapon_projectile_number = 0;
-
-weapon_max_accuracy = 0;
-
-weapon_sprite = -1;
-weapon_ui_sprite = -1;
-
-weapon_offset = 0;
-
-weapon_max_impact = 0;
-weapon_max_angular_impact = 0;
-
-weapon_object = noone;
-weapon_damage = 0;
+weapon_primary_index = -1;
+weapon_secondary_index = -1;
 
 weapon_is_firing = false;
 
-weapon_ammo = 0;
+weapon_primary_ammo = 0;
+weapon_primary_reserve_ammo = 0;
+
 weapon_secondary_ammo = 0;
+weapon_secondary_reserve_ammo = 0;
 
 weapon_arm_bob = 0;
 weapon_arm_bob_speed = 0.01;
@@ -75,5 +57,7 @@ weapon_reloading_time = 0;
 
 close_interactive = noone;
 interaction_radius = 10;
+
+set_health(full_health);
 
 show_debug_overlay(true);

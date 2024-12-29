@@ -1,9 +1,9 @@
 function player_start_fire(){
-	if(weapon_index == -1){
+	if(weapon_primary_index == -1){
         return;
     }
     
-    if(weapon_ammo == 0){
+    if(weapon_primary_ammo == 0){
         return;
     }
     
@@ -11,7 +11,9 @@ function player_start_fire(){
         return;
     }
     
-    if(weapon_type == WEAPON_TYPE.AUTOMATIC){
+    var _type = global.weapons[weapon_primary_index][0];
+    
+    if(_type == WEAPON_TYPE.AUTOMATIC){
         weapon_is_firing = true;
         
         return;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"push_from_object",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"push_from_object",
+  "parent":{
+    "name":"Generic",
+    "path":"folders/Scripts/Generic.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

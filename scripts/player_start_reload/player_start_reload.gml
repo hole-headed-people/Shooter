@@ -1,9 +1,11 @@
 function player_start_reload(){
-    if(weapon_ammo == weapon_full_ammo){
+    var _weapon = global.weapons[weapon_primary_index];
+    
+    if(weapon_primary_ammo == _weapon[1]){
         return;
     }
     
-    if(weapon_secondary_ammo == 0){
+    if(weapon_primary_reserve_ammo == 0){
         return;
     }
     

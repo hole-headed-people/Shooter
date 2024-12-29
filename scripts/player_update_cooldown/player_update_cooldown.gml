@@ -1,6 +1,8 @@
 function player_update_cooldown(){
+    var _weapon = global.weapons[weapon_primary_index];
+    
     if(weapon_is_cooldown){
-        if(weapon_cooldown < weapon_max_cooldown){
+        if(weapon_cooldown < _weapon[2]){
             weapon_cooldown += 0.01;
         } else {
             weapon_cooldown = 0;

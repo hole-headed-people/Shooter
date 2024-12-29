@@ -1,5 +1,7 @@
 function player_update_automatic_fire() {
-    if(weapon_type != WEAPON_TYPE.AUTOMATIC){
+    var _type = global.weapons[weapon_primary_index][0];
+    
+    if(_type != WEAPON_TYPE.AUTOMATIC){
         return;
     }
     
@@ -7,7 +9,7 @@ function player_update_automatic_fire() {
         return;
     }
     
-    if(weapon_ammo == 0){
+    if(weapon_primary_ammo == 0){
         return;
     }
     
