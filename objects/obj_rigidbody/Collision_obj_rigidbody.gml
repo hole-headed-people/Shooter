@@ -1,0 +1,1 @@
+push_from_object(other, other.mass / mass);

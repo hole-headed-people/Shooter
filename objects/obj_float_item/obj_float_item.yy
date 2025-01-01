@@ -8,11 +8,12 @@
   "managed":true,
   "name":"obj_float_item",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"enable_draw_self","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"propertyId":{"name":"enable_draw_self","path":"objects/obj_actor/obj_actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"propertyId":{"name":"shadow_y_offset","path":"objects/obj_actor/obj_actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
   ],
   "parent":{
-    "name":"Parents",
-    "path":"folders/Objects/Parents.yy",
+    "name":"Core",
+    "path":"folders/Objects/Core.yy",
   },
   "parentObjectId":{
     "name":"obj_item",

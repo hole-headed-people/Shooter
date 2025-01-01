@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"groups",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"groups",
+  "parent":{
+    "name":"Generic",
+    "path":"folders/Scripts/Generic.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

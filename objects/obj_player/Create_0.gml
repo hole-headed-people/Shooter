@@ -58,6 +58,4 @@ weapon_reloading_time = 0;
 close_interactive = noone;
 interaction_radius = 10;
 
-set_health(full_health);
-
 show_debug_overlay(true);

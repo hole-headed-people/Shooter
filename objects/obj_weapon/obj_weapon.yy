@@ -8,8 +8,8 @@
   "name":"obj_weapon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Parents",
-    "path":"folders/Objects/Parents.yy",
+    "name":"Core",
+    "path":"folders/Objects/Core.yy",
   },
   "parentObjectId":{
     "name":"obj_float_interactive",

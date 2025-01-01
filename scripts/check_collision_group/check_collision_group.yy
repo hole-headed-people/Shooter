@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"check_collision_group",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_collision_group",
+  "parent":{
+    "name":"Actor",
+    "path":"folders/Scripts/Actor.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

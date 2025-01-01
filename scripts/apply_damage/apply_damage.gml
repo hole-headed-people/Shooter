@@ -1,6 +1,10 @@
 function apply_damage(_caller, _amount, _instigator){
+    if(!can_be_damaged){
+        return false;
+    }
+    
     if(is_dead){
-        return;
+        return false;
     }
     
     var _value = current_health - _amount;
@@ -18,10 +22,12 @@ function apply_damage(_caller, _amount, _instigator){
         event_user(0);
         event_user(1);
         
-        return;
+        return true;
     }
     
     set_health(_value);
     
     event_user(0);
+    
+    return true;
 }

@@ -3,6 +3,10 @@ function player_drop(){
         return;
     }
     
+    if(weapon_is_reloading){
+        return;
+    }
+    
     var _weapon = global.weapons[weapon_primary_index];
     
     var _x = x + lengthdir_x(PLAYER_DROP_DISTANCE, facing_direction);

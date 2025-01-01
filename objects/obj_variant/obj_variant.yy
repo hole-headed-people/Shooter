@@ -15,8 +15,7 @@
   "managed":true,
   "name":"obj_variant",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage_receiver","path":"objects/obj_damage_receiver/obj_damage_receiver.yy",},"propertyId":{"name":"full_health","path":"objects/obj_damage_receiver/obj_damage_receiver.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"35",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"shadow_y_offset","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"propertyId":{"name":"full_health","path":"objects/obj_actor/obj_actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"35",},
   ],
   "parent":{
     "name":"Characters",
@@ -39,7 +38,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"drop_item_types","filters":[],"listItems":[
+        "\"Ammo\"",
+        "\"Medicine\"",
+      ],"multiselect":true,"name":"drop_item_types","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Ammo\", \"Medicine\"","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"drop_number","filters":[],"listItems":[],"multiselect":false,"name":"drop_number","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -7,14 +7,16 @@
   ],
   "managed":true,
   "name":"obj_interactive",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"propertyId":{"name":"can_be_damaged","path":"objects/obj_actor/obj_actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+  ],
   "parent":{
-    "name":"Parents",
-    "path":"folders/Objects/Parents.yy",
+    "name":"Core",
+    "path":"folders/Objects/Core.yy",
   },
   "parentObjectId":{
-    "name":"obj_depth_object",
-    "path":"objects/obj_depth_object/obj_depth_object.yy",
+    "name":"obj_actor",
+    "path":"objects/obj_actor/obj_actor.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

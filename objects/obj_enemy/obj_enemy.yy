@@ -9,12 +9,12 @@
   "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Parents",
-    "path":"folders/Objects/Parents.yy",
+    "name":"Core",
+    "path":"folders/Objects/Core.yy",
   },
   "parentObjectId":{
-    "name":"obj_damage_receiver",
-    "path":"objects/obj_damage_receiver/obj_damage_receiver.yy",
+    "name":"obj_character",
+    "path":"objects/obj_character/obj_character.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

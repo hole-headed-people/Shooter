@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"weapons",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Generic",
+    "path":"folders/Scripts/Generic.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

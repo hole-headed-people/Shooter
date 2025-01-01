@@ -7,18 +7,12 @@
   ],
   "managed":true,
   "name":"obj_muzzle_flash",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"fixed_depth","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-10000",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"cast_shadow","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Particles",
     "path":"folders/Objects/Particles.yy",
   },
-  "parentObjectId":{
-    "name":"obj_depth_object",
-    "path":"objects/obj_depth_object/obj_depth_object.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -11,16 +11,17 @@
   "managed":true,
   "name":"obj_crate",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_damage_receiver","path":"objects/obj_damage_receiver/obj_damage_receiver.yy",},"propertyId":{"name":"full_health","path":"objects/obj_damage_receiver/obj_damage_receiver.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"shadow_y_offset","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"propertyId":{"name":"shadow_y_offset","path":"objects/obj_actor/obj_actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"propertyId":{"name":"full_health","path":"objects/obj_actor/obj_actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_actor","path":"objects/obj_actor/obj_actor.yy",},"propertyId":{"name":"enable_rigidbody","path":"objects/obj_actor/obj_actor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"Props",
-    "path":"folders/Objects/Props.yy",
+    "path":"folders/Objects/Placeables/Props.yy",
   },
   "parentObjectId":{
-    "name":"obj_damage_receiver",
-    "path":"objects/obj_damage_receiver/obj_damage_receiver.yy",
+    "name":"obj_actor",
+    "path":"objects/obj_actor/obj_actor.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

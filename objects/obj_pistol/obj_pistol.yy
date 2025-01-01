@@ -5,12 +5,11 @@
   "managed":true,
   "name":"obj_pistol",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"shadow_y_offset","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"propertyId":{"name":"ammo","path":"objects/obj_weapon/obj_weapon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"12",},
   ],
   "parent":{
     "name":"Weapons",
-    "path":"folders/Objects/Weapons.yy",
+    "path":"folders/Objects/Placeables/Weapons.yy",
   },
   "parentObjectId":{
     "name":"obj_weapon",

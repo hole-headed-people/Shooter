@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"set_health",
   "parent":{
-    "name":"Generic",
-    "path":"folders/Scripts/Generic.yy",
+    "name":"Actor",
+    "path":"folders/Scripts/Actor.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

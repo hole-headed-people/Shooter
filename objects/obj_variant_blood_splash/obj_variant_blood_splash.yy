@@ -6,9 +6,7 @@
   ],
   "managed":true,
   "name":"obj_variant_blood_splash",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"cast_shadow","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Particles",
     "path":"folders/Objects/Particles.yy",

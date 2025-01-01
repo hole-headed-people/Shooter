@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_drop_items",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_drop_items",
+  "parent":{
+    "name":"Generic",
+    "path":"folders/Scripts/Generic.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

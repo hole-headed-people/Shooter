@@ -50,7 +50,7 @@ global.weapons[1][12] = 20;
 global.weapons[1][13] = obj_mp5;
 global.weapons[1][14] = 5;
 
-//Gun
+//Shotgun
 
 global.weapons[2][0] = WEAPON_TYPE.SINGLE;
 global.weapons[2][1] = 8;
@@ -60,11 +60,11 @@ global.weapons[2][4] = 7;
 global.weapons[2][5] = obj_projectile;
 global.weapons[2][6] = 2;
 global.weapons[2][7] = 8;
-global.weapons[2][8] = spr_player_gun;
-global.weapons[2][9] = spr_gun;
+global.weapons[2][8] = spr_player_shotgun;
+global.weapons[2][9] = spr_shotgun;
 global.weapons[2][10] = 4;
 global.weapons[2][11] = 4;
 global.weapons[2][12] = 60;
-global.weapons[2][13] = obj_gun;
+global.weapons[2][13] = obj_shotgun;
 global.weapons[2][14] = 15;
 global.weapons[1][12] = 20;

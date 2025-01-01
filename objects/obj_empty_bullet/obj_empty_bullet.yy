@@ -6,7 +6,6 @@
   "name":"obj_empty_bullet",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_disappearing_particle","path":"objects/obj_disappearing_particle/obj_disappearing_particle.yy",},"propertyId":{"name":"alarm_to_destroy","path":"objects/obj_disappearing_particle/obj_disappearing_particle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"fixed_depth","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
   ],
   "parent":{
     "name":"Particles",

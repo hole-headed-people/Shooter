@@ -6,12 +6,10 @@
   ],
   "managed":true,
   "name":"obj_ammo",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"shadow_y_offset","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Items",
-    "path":"folders/Objects/Items.yy",
+    "path":"folders/Objects/Placeables/Items.yy",
   },
   "parentObjectId":{
     "name":"obj_float_item",
@@ -31,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"ammo","filters":[],"listItems":[],"multiselect":false,"name":"ammo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"ammo","filters":[],"listItems":[],"multiselect":false,"name":"ammo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

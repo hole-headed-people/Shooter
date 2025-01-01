@@ -7,7 +7,6 @@
   "managed":true,
   "name":"obj_wood_destruction_particle",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_depth_object","path":"objects/obj_depth_object/obj_depth_object.yy",},"propertyId":{"name":"cast_shadow","path":"objects/obj_depth_object/obj_depth_object.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_disappearing_particle","path":"objects/obj_disappearing_particle/obj_disappearing_particle.yy",},"propertyId":{"name":"alarm_to_destroy","path":"objects/obj_disappearing_particle/obj_disappearing_particle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
   ],
   "parent":{
