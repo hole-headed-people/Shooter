@@ -22,6 +22,7 @@ var _sprite = _weapon[9];
 var _ammo = player.weapon_primary_ammo;
 var _reserve_ammo = player.weapon_primary_reserve_ammo;
 
+draw_text_color(31, GUI_HEIGHT - 37, string(_ammo) + " / " + string(_reserve_ammo), c_black, c_black, c_black, c_black, 0.5);
 draw_text_color(30, GUI_HEIGHT - 38, string(_ammo) + " / " + string(_reserve_ammo), c_white, c_white, c_white, c_white, 1);
 
 draw_sprite_ext(_sprite, 0, 17, GUI_HEIGHT - 29, 1, 1, 0, c_black, 0.5);

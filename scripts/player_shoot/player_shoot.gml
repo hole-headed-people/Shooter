@@ -33,7 +33,7 @@ function player_shoot(){
     		motion_set(_direction, 8);
     	}
         
-        var _empty_bullet_direction = point_direction(x, y, x - facing_right * 10, y);
+        var _empty_bullet_direction = point_direction(x, y, x - facing_right * 10, y + random_range(-5, 5));
         create_disappearing_particle(x, _projectile_y, obj_empty_bullet, _empty_bullet_direction, 0.5);
     }
 	
